@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <application name="FindMyPhoneTizenApp" >
+        <serviceProfile
+            id="/com/barte/findmyphone/tizen/message"
+            name="Find My Phone Tizen App"
+            role="consumer"
+            version="1.0" >
+            <supportedTransports>
+                <transport type="TRANSPORT_BT" />
+                <transport type="TRANSPORT_WIFI"/>
+            </supportedTransports>
+            <serviceChannel
+                id="109"
+                dataRate="low"
+                priority="high"
+                reliability="enable" >
+            </serviceChannel>
+        </serviceProfile>
+    </application>
+</resources>

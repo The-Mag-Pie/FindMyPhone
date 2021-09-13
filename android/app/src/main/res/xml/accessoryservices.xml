@@ -1,0 +1,22 @@
+<resources>
+    <application name="FindMyPhoneTizenService">
+        <serviceProfile
+            serviceImpl="com.barte.findmyphone.SamsungAccessoryService"
+            role="provider"
+            name="Find My Phone Tizen Service"
+            id="/com/barte/findmyphone/tizen/message"
+            version="1.0"
+            serviceLimit="any"
+            serviceTimeout="10">
+            <supportedTransports>
+                <transport type="TRANSPORT_BT"/>
+                <transport type="TRANSPORT_WIFI" />
+            </supportedTransports>
+            <serviceChannel
+                dataRate="low"
+                id="109"
+                priority="high"
+                reliability="enable" />
+        </serviceProfile>
+    </application>
+</resources>
