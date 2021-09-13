@@ -7,3 +7,5 @@ I know that Samsung Wearables have builin function to find the phone but it work
 2. Install apk in Android device
 3. Build package in Tizen Studio and install it on Wearable device
 4. Enjoy
+# IMPORTANT!
+As the app uses the alarm channel, you can't have it muted.
